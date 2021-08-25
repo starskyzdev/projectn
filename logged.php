@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
     </style>
     <title>Verification | Neverleave</title>
 </head>
@@ -41,7 +41,7 @@
                     $_SESSION['username'] = 'admin';
                     echo "Welcome admin";
                     echo '<p>admin verified, redirecting to the main site </p>';
-                    header("refresh: 2; URL = main.php");
+                    header("refresh: 2; URL = quotes_stack.php");
                 } else {
                     $msg = "Wrong username and password";
                     echo $msg;
