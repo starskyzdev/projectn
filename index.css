@@ -1,0 +1,29 @@
+
+
+  body {
+    background-color: #85A3B2;
+  }
+
+  .container {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: #FFA7AD;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .center {
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  h2 {
+    color: #FFDA03;
+  }
